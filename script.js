@@ -23,7 +23,7 @@ function tap(){
     }
 
     if (taps % 2 == 0){
-        taps = taps * 2;
+        taps = taps + 50;
     }
     document.getElementById("coins").textContent=taps;
 }
