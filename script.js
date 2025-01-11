@@ -21,5 +21,9 @@ function tap(){
     else{
         taps = taps + 10000000000;
     }
+
+    if (taps % 2 == 0){
+        taps = taps * 2;
+    }
     document.getElementById("coins").textContent=taps;
 }
